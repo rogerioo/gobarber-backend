@@ -26,14 +26,14 @@
     "rules": {
       "prettier/prettier": "error",
       "class-methods-use-this":"off",
-      "@typescript-eslint/camelcase": "off",
+      "camelcase": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
         {
           "ts": "never"
         }
-      ],
+      ]
     },
     "settings": {
       "import/resolver": {
